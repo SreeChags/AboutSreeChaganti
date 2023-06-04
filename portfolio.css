@@ -17,7 +17,10 @@ html {
   background-color: #e8dada;
   font-family: sans-serif;
   font-style: italic;
+  color: var(--gray);
 }
+
+/*code for navbar*/
 
 .navbarheader {
   position: fixed;
@@ -72,6 +75,9 @@ html {
 .navbarlist:hover {
   color: var(--pink1);
 }
+
+/*code for aboutme*/
+
 .about {
   height: auto;
   width: auto;
@@ -85,7 +91,6 @@ html {
   margin-left: 20px;
   margin-top: 150px;
 }
-
 .profileimg {
   border-radius: 50%;
   width: 100%;
@@ -109,7 +114,6 @@ html {
   display: flex;
   flex-direction: row;
 }
-
 .circle1,
 .circle2,
 .circle3 {
@@ -137,13 +141,15 @@ html {
   background-color: var(--green);
   margin-top: 30px;
 }
-
 .text {
   color: white;
   font-size: 20px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
+}
+.text:hover {
+  color: var(--black);
 }
 .introduction {
   color: var(--black);
@@ -153,4 +159,37 @@ html {
   justify-content: center;
   text-align: left;
   font-family: "Times New Roman", Times, serif;
+}
+
+/*code for work experinece*/
+
+.exper {
+  margin-left: 10px;
+}
+.workexptitle {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 55px;
+  font-weight: bold;
+}
+.company {
+  font-weight: bold;
+}
+.job1,
+.job2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+.job2 {
+  margin-bottom: 30px;
+}
+.job {
+  font-weight: bolder;
+}
+.exp,
+.myprojecttitle,
+.meup {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
