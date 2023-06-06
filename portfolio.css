@@ -278,3 +278,106 @@ html {
   box-shadow: none !important;
   color: var(--black);
 }
+/* Media Queries*/
+@media only screen and (max-width: 414px) {
+  .mediv {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgcircle {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+  }
+  .navname {
+    margin-left: 90px;
+    margin-top: 8px;
+  }
+  .para {
+    margin-top: -35px;
+  }
+  .navbardiv {
+    float: left;
+    margin-top: 10px;
+  }
+  .navbarlist {
+    font-size: 13px;
+    margin-top: -20px;
+    padding-right: 4px;
+    margin-right: 15px;
+  }
+  .navbarlinks {
+    margin-left: -20px;
+  }
+  .project {
+    margin-right: 7px;
+  }
+  .hello {
+    margin-top: 20px;
+  }
+  .circle1,
+  .circle2,
+  .circle3 {
+    width: 85px;
+    height: 85px;
+  }
+  .circle1 {
+    margin-left: 20px;
+  }
+  .text {
+    font-size: 18px;
+  }
+  .about {
+    margin-bottom: 30px;
+  }
+  .navname {
+    float: none;
+  }
+  .exp,
+  .myprojecttitle,
+  .meup {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  html {
+    scroll-padding-top: 130px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .navbarlist {
+    padding: 0px 10px 3px 3px;
+  }
+  .about {
+    margin-bottom: 30px;
+  }
+  .navname {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .mediv {
+    display: flex;
+    flex-direction: column;
+  }
+  .imgcircle {
+    margin-left: 200px;
+    width: 375px;
+    height: 375px;
+  }
+  .hello {
+    margin-top: 30px;
+  }
+  .hello,
+  .me {
+    margin-left: 30px;
+  }
+  .introduction {
+    margin-left: 20px;
+  }
+  .circle1 {
+    margin-left: 150px;
+  }
+  .project {
+    margin-right: 10px;
+  }
+}
