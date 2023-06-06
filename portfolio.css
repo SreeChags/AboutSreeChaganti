@@ -5,8 +5,8 @@
   --white: #ffffff;
   --gray: #555555;
   --darkpink: #dc2b4c;
-  --green: #b0ba1f;
-  --skyblue: #56d0e6;
+  --green: #6b720d;
+  --skyblue: #0b4d58;
 }
 html {
   scroll-behavior: smooth;
@@ -110,7 +110,6 @@ html {
 }
 .mediv {
   text-align: center;
-  font-size: auto;
   display: flex;
   flex-direction: row;
 }
@@ -234,13 +233,10 @@ html {
   text-align: left;
   font-weight: bold;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
+  float: left;
 }
-.tnames {
-  padding-top: 6px;
-  text-align: left;
-  font-size: 15px;
-}
+
 .projparagraph {
   font-size: 20px;
   text-align: left;
@@ -248,9 +244,37 @@ html {
   padding-right: 10px;
   font-family: "Times New Roman", Times, serif;
 }
+
+/*code for form*/
+
+.link,
 .ptitle {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 55px;
   font-weight: bold;
+}
+.name,
+.email,
+.message {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.sbdiv {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.form-control {
+  border: 1px solid !important;
+}
+.submitbtn {
+  background-color: var(--white);
+}
+#btn {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: none !important;
+  color: var(--black);
 }

@@ -98,12 +98,9 @@
         </div>
         <div class="exper">
           <h2 class="company">TATA Consultancy Services</h2>
-          <h5 class="job">
+          <p class="job">
             Middleware Administrator (June 2019 - December 2021)
-          </h5>
-          <h6 class="tech">
-            Technologies : Ansible, Docker, ActiveMQ, JFuse, CA-API gateway
-          </h6>
+          </p>
           <ul class="job1">
             <li>
               Worked as Software engineer in a team of 15 members as server and
@@ -130,9 +127,11 @@
               Played a major role in handling production servers in critical
               production release and performed 3 major production releases.
             </li>
+            <li>
+              Technologies : Ansible, Docker, ActiveMQ, JFuse, CA-API gateway
+            </li>
           </ul>
-          <h5 class="job">Frontend Developer (January 2022 - December 2023)</h5>
-          <h6 class="tech">Technologies : HTML, CSS, JavaScript, Vue.js</h6>
+          <p class="job">Frontend Developer (January 2022 - December 2023)</p>
           <ul class="job2">
             <li>
               Worked in collaborative agile environments with other developers
@@ -150,6 +149,7 @@
               Worked for 2 sprint releases and worked with two different teams
               to build 2 different components in the whole web application.
             </li>
+            <li>Technologies : HTML, CSS, JavaScript, Vue.js</li>
           </ul>
         </div>
       </div>
@@ -167,7 +167,7 @@
                   src="project1.jpeg"
                   alt="Universal Automation Device"
                 />
-                <h4 class="projecttitle">Universal Automation Device</h4>
+                <h2 class="projecttitle">Universal Automation Device</h2>
                 <p class="projparagraph">
                   smart plug has a universal 3 pin socket that can be controlled
                   remotely form Smartphone. It uses SMS commands or locally
@@ -179,10 +179,9 @@
                   office or sun drenched beaches this GSM smart socket keeps you
                   in control at every step
                 </p>
-                <h5 class="technology">Technology used</h5>
-                <ul class="tnames">
-                  <li>Aurdion IDE, Aurdino C</li>
-                </ul>
+                <p class="technology">
+                  Technology used: Aurdion IDE, Aurdino C
+                </p>
               </div>
             </div>
           </section>
@@ -192,9 +191,9 @@
                 <img
                   class="img"
                   src="project2.jpg"
-                  alt="Image of a turtle crossing project"
+                  alt="turtle crossing project"
                 />
-                <h4 class="projecttitle">Turtle Crossing</h4>
+                <h2 class="projecttitle">Turtle Crossing</h2>
                 <p class="projparagraph">
                   This was my personal project developed using python and OOPs
                   concepts. This project is all about a turtle crossing the road
@@ -205,14 +204,61 @@
                   developed using class and python modules which are turtle and
                   tkinter.
                 </p>
-                <h5 class="technology">Technology used</h5>
-                <ul class="tnames">
-                  <li>Python, Oops, Turtle, Tkinter.</li>
-                </ul>
+                <p class="technology">
+                  Technology used: Python, Oops, Turtle, Tkinter.
+                </p>
               </div>
             </div>
           </section>
         </div>
+      </section>
+      <hr class="line" />
+      <section class="linkme container-fluid" id="linkme">
+        <div class="link"><h1 class="meup">Link Me Up</h1></div>
+        <form class="form" action="portfolio.html" id="linkmeup">
+          <div class="mb-3 row">
+            <div class="col">
+              <label class="name col-sm-4 col-form-label" for="name"
+                >Name</label
+              >
+              <input
+                class="form-control"
+                placeholder="Name"
+                type="text"
+                id="name"
+                required
+              />
+            </div>
+            <div class="col">
+              <label class="email col-sm-4 col-form-label" for="email"
+                >Email</label
+              >
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="message col-sm-4 col-form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              placeholder="Say something!"
+              required
+            ></textarea>
+          </div>
+          <div class="sbdiv">
+            <button type="submit" class="btn btn-primary" id="btn">
+              submit
+            </button>
+          </div>
+        </form>
       </section>
     </main>
   </body>
